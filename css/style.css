@@ -12,7 +12,6 @@
 #C4B6B3
 #D92353
 #04BF7B
-#D9CB04
 #D98825
 #8C1132
 */
@@ -70,3 +69,25 @@ header {
 .card:hover {
   color:#FC6203;
 };
+
+form {
+
+}
+
+form input {
+  border: 2px solid #04BF7B;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  height: 45px;
+}
+
+input[type="submit"] {
+  background-color: #D92353;
+  color: #8C1132;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  text-shadow: 1px 1px 0px white;
+}

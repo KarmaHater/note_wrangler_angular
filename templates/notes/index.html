@@ -3,6 +3,7 @@
     <div class="notes-header">
       <h2 title="Notes">Notes</h2>
     </div>
+    <a href="#/new-note"><input type="submit" value="New Note"/></a>
     <div class="note-wrapper">
       <a class="card-notes" ng-repeat="note in notes" ng-href='#/notes/{{note.id}}'>
         <div class="card" title="{{ note.title }}">
