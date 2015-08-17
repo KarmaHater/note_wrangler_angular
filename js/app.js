@@ -1,1 +1,1 @@
-angular.module('NoteWrangler', [])
+angular.module('NoteWrangler', ['ngRoute'])
