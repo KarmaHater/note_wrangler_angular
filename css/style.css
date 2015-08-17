@@ -91,3 +91,7 @@ input[type="submit"] {
   font-size: 1em;
   text-shadow: 1px 1px 0px white;
 }
+
+.hidden {
+  display: none;
+}
