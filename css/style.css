@@ -52,3 +52,21 @@ header {
   color: white;
   text-shadow: 2px 2px 2px #000;
 }
+.card-notes {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #8C1132;
+  display: inline-block;
+}
+
+.card {
+  display: inline-block;
+  color: #D98825;
+  border: 2px solid #04BF7B;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card:hover {
+  color:#FC6203;
+};
