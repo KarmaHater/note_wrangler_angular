@@ -6,10 +6,7 @@
     <a href="#/new-note"><input type="submit" value="New Note"/></a>
     <div class="note-wrapper">
       <a class="card-notes" ng-repeat="note in notes" ng-href='#/notes/{{note.id}}'>
-        <div class="card" title="{{ note.title }}">
-          <h3 class="h3">{{ note.title }}</h3>
-          <p>{{ note.description }}</p>
-        </div>
+        <nw-card></nw-card>
       </a>
     </div>
   </div>
